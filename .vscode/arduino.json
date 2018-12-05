@@ -1,0 +1,5 @@
+{
+    "sketch": "ecolocation\\ecolocation.ion",
+    "board": "arduino:avr:uno",
+    "port": "COM3"
+}
