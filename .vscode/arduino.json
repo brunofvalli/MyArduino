@@ -1,5 +1,5 @@
 {
-    "sketch": "ecolocation\\ecolocation.ion",
+    "sketch": "stepmotorunipolar\\stepmotorunipolar.ino",
     "board": "arduino:avr:uno",
     "port": "COM3"
 }

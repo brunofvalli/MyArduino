@@ -8,8 +8,8 @@ void setup(){
     pinMode(redPin, OUTPUT);
     pinMode(yellowPin, OUTPUT);
     // how long before we run
-    Timer1.initialize(10000000);
-    Timer1.attached(BlinkYellow);
+    Timer1.initialize(1000000);
+    Timer1.attachInterrupt(BlinkYellow);
 }
 
 void BlinkYellow()
@@ -29,7 +29,7 @@ void BlinkYellow()
 
 void loop(){
     digitalWrite(redPin, HIGH);
-    delay(1000);
+    delay(250);
     digitalWrite(redPin, LOW);
-    delay(1000);
+    delay(250);
 }
